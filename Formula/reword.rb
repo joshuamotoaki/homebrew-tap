@@ -1,25 +1,25 @@
 class Reword < Formula
   desc "A plain-text flashcard CLI with FSRS spaced repetition"
   homepage "https://github.com/joshuamotoaki/reword"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.3/reword-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "760fca6d26c2cd67e5e7c03607788a5df5aa711f6ed46852b3f5d2803a28df6c"
+      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.4/reword-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "c339748e07c3930aa7bfdc72d84ec07db7283c018c0f8f9a92d25587858c05c7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.3/reword-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "7be8d02d3be77bc6b8815e4cfaedbd9b7adaa1749a2aa63f4a581449cd7bd17d"
+      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.4/reword-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "6925188a77b796bd888e0886f99964dab2aaa9352ed21724b47c890b18f23f80"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.3/reword-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "744a2c887af34f567a813af775a006ba1848d5be58077ecb7338e4e554760886"
+      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.4/reword-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ca6d63b0d54de4390b02a466e4d92d2a1f9de4e40bbc82aba6850742c4e45f69"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.3/reword-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d2ca7bfa5bc724c84335f536611f06f98020bffed5bbd22131b9c25d85363bf1"
+      url "https://github.com/joshuamotoaki/reword/releases/download/v0.1.4/reword-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8343333045bdf0da02741712af95d03ccda88b21e2532d86f9577f9e97eb0ace"
     end
   end
   license "Apache-2.0"
